@@ -10,7 +10,7 @@
           <v-icon left dark v-if="item.icon != ''">{{ item.icon }}</v-icon>
           {{ item.title }}
         </v-btn>
-        <v-btn :to="item.path" v-else>
+        <v-btn :to="item.path" v-else class="ml-2" color="white">
           {{ item.title }}
         </v-btn>
       </div>
