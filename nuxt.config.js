@@ -17,21 +17,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{
-      src: "https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js",
-    }]
   },
-  publicRuntimeConfig: {
-    axios: {},
-    API_GATEWAY: process.env.API_GATEWAY_URL,
-    STORAGE_MS: process.env.STORAGE_MS_URL,
-    SOAP_URL: process.env.SOAP_URL,
-  },
-  privateRuntimeConfig: {
-    axios: {
-      baseURL: process.env.API_GATEWAY_URL,
-    },
-  },
+  publicRuntimeConfig: {},
+  privateRuntimeConfig: {},
 
 
 
@@ -40,7 +28,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/storage-api' },
     { src: '~/plugins/vuex-persist', ssr: false },
   ],
 
