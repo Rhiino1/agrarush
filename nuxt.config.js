@@ -1,5 +1,5 @@
 export default {
-  target: 'static',
+  // target: 'static',
   router: {
     // base: '/agrarush/'
   },
@@ -29,6 +29,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/vuex-persist', ssr: false },
+    { src: "~/plugins/google-maps", ssr: false, mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -85,6 +86,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  transpile: [/^gmap-vue($|\/)/],
 
   publicRuntimeConfig: {
     axios: {},
