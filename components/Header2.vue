@@ -44,6 +44,7 @@ export default {
         { title: 'Inicio', path: '/', icon: 'mdi-home' },
         { title: 'Servicios', path: '/services', icon: '' },
         { title: 'Contacto', path: '/contact', icon: '' },
+        { title: 'Mapa', path: '/map', icon: '' },
         { title: 'Iniciar Sesión', path: '/login', icon: 'mdi-account' },
         { title: 'Registrarse', path: '/register', icon: '' },
       ],
