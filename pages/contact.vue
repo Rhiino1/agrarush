@@ -2,7 +2,7 @@
   <v-container grid-list-xs>
     <div class="main-services d-flex justify-center align-center">
       <div class="bg">
-        <v-img contain src="/services-bg.png"></v-img>
+        <v-img contain src="~/assets/services-bg.png"></v-img>
       </div>
       <div class="d-flex flex-column align-center justify-center">
         <h1 class="white--text font-italic font-weight-medium">Contacto</h1>
@@ -29,7 +29,9 @@
         </div>
       </div>
       <div class="d-flex flex-column align-center justify-center coms">
-        <h1 class="white--text font-italic mb-5 font-weight-medium">Dejanos tus comentarios</h1>
+        <h1 class="white--text font-italic mb-5 font-weight-medium">
+          Dejanos tus comentarios
+        </h1>
         <v-col cols="12" class="mb-3">
           <v-textarea
             name="Comentarios"
@@ -44,7 +46,9 @@
             width="300"
           ></v-textarea>
         </v-col>
-        <v-btn color="white" outlined small class="mt-n9 send-btn">Enviar</v-btn>
+        <v-btn color="white" outlined small class="mt-n9 send-btn"
+          >Enviar</v-btn
+        >
       </div>
     </div>
   </v-container>
@@ -74,20 +78,20 @@ export default {
 
 <style scoped>
 .bg {
-  background: url('/services-bg.png');
+  background: url('~assets/services-bg.png');
   position: absolute;
   z-index: -1;
   /* top: 0px; */
   /* left: 0px; */
 }
 
-.coms{
-    width: 410px;
+.coms {
+  width: 410px;
 }
 
-.send-btn{
-    position: relative;
-    left: 145px;
+.send-btn {
+  position: relative;
+  left: 145px;
 }
 
 .main-services {

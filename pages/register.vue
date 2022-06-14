@@ -122,7 +122,7 @@ export default {
 }
 
 .second-bg {
-  background: center / contain no-repeat url('/bg-register.png');
+  background: center / contain no-repeat url('~assets/bg-register.png');
   /* background-size: cover; */
 }
 </style>
