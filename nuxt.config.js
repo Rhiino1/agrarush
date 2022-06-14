@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   router: {
-    base: 'rhiino1.github.io/agrarush/'
+    base: '/agrarush/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
