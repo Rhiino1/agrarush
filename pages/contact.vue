@@ -2,7 +2,7 @@
   <v-container grid-list-xs>
     <div class="main-services d-flex justify-center align-center">
       <div class="bg">
-        <v-img contain src="~/assets/services-bg.png"></v-img>
+        <v-img contain src="../services-bg.png"></v-img>
       </div>
       <div class="d-flex flex-column align-center justify-center">
         <h1 class="white--text font-italic font-weight-medium">Contacto</h1>
@@ -78,7 +78,7 @@ export default {
 
 <style scoped>
 .bg {
-  background: url('~assets/services-bg.png');
+  background: url('/services-bg.png');
   position: absolute;
   z-index: -1;
   /* top: 0px; */

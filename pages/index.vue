@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xs>
     <div class="bg">
-      <v-img contain src="~/assets/index-bg.png"></v-img>
+      <v-img contain src="../index-bg.png"></v-img>
     </div>
     <div class="main-index">
       <div class="main-part-index">
@@ -14,7 +14,7 @@
           <p>Planeación de análisis de datos y evaluación de la eficiencia</p>
         </div>
         <div>
-          <v-img contain src="~/assets/image-6.png"></v-img>
+          <v-img contain src="../image-6.png"></v-img>
         </div>
       </div>
       <div class="second-part-index">

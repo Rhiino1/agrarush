@@ -2,7 +2,7 @@
   <v-container grid-list-xs>
     <div class="main-services d-flex justify-center align-center">
       <div class="bg">
-        <v-img contain src="~/assets/services-bg.png"></v-img>
+        <v-img contain src="../services-bg.png"></v-img>
       </div>
       <div>
         <h1 class="white--text font-italic">Logística: Camino al desarrollo</h1>
@@ -35,7 +35,7 @@
             de ventas, geolocalización por cliente, rutas utliizadas, CEDIS
             actuales, costos por ruta, flotas y su información técnica.
           </p>
-          <v-img contain src="~/assets/services-items-1.png" max-height="117"></v-img>
+          <v-img contain src="../services-items-1.png" max-height="117"></v-img>
         </div>
         <div
           class="
@@ -51,7 +51,7 @@
             viabilidad de creación de nuevos CEDIS y nuevas posibles rutas, sus
             costos logísticos y su huella de carbono.
           </p>
-          <v-img contain src="~/assets/services-items-2.png" max-height="117"></v-img>
+          <v-img contain src="../services-items-2.png" max-height="117"></v-img>
         </div>
         <div
           class="
@@ -67,7 +67,7 @@
             geolocalizaciones en tiempo real para un seguimiento más seguro de
             tus rutas.
           </p>
-          <v-img contain src="~/assets/services-items-3.png" max-height="117"></v-img>
+          <v-img contain src="../services-items-3.png" max-height="117"></v-img>
         </div>
       </div>
     </div>
@@ -98,7 +98,7 @@ export default {
 
 <style scoped>
 .bg {
-  background: url('~assets/services-bg.png');
+  background: url('/services-bg.png');
   position: absolute;
   z-index: -1;
   /* top: 0px; */
