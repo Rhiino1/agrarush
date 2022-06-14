@@ -1,6 +1,6 @@
 <template>
   <!-- <Register /> -->
-  <v-container fluid>
+  <v-container >
     <div class="d-flex align-center justify-center mt-16">
       <v-col class="bg d-flex flex-column justify-center">
         <h1 class="font-italic login-text white--text font-weight-medium pl-16">

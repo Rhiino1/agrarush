@@ -3,7 +3,7 @@
     <v-main>
       <Header2 />
       <v-divider></v-divider>
-      <v-container>
+      <v-container fluid>
         <Nuxt />
       </v-container>
     </v-main>

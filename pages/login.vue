@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container>
     <div class="d-flex align-center justify-center mt-16">
       <v-col>
         <h1 class="font-italic login-text">Iniciar Sesión</h1>
