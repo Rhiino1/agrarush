@@ -24,7 +24,7 @@
       <v-col>
         <v-row class="bg d-flex justify-center align-center">
           <div class="logo-bg d-flex justify-center align-center">
-            <v-img contain src="../logo.png" height="125"></v-img>
+            <v-img contain src="logo.png" height="125"></v-img>
           </div>
         </v-row>
       </v-col>

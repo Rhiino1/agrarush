@@ -1,6 +1,6 @@
 <template>
   <!-- <Register /> -->
-  <v-container >
+  <v-container>
     <div class="d-flex align-center justify-center mt-16">
       <v-col class="bg d-flex flex-column justify-center">
         <h1 class="font-italic login-text white--text font-weight-medium pl-16">
@@ -57,7 +57,7 @@
           ></v-text-field>
         </v-col>
       </v-col>
-      <v-col class="second-bg d-flex flex-column" cols="6">
+      <v-col class="second-bg d-flex flex-column" cols="6" :style="image">
         <h1 class="font-italic login-text2">Datos de la empresa</h1>
         <v-col class="login-items login-items-2" cols="10">
           <v-text-field
@@ -84,7 +84,13 @@
 <script>
 export default {
   name: 'RegisterPage',
+  data() {
+    return {
+      image: { background: `center / contain no-repeat url(${bikeImg})` },
+    }
+  },
 }
+import bikeImg from '../static/bg-register.png'
 </script>
 
 <style scoped>
@@ -122,7 +128,7 @@ export default {
 }
 
 .second-bg {
-  background: center / contain no-repeat url('/bg-register.png');
+  /* background: center / contain no-repeat url('/bg-register.png'); */
   /* background-size: cover; */
 }
 </style>

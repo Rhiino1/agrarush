@@ -1,8 +1,8 @@
 <template>
   <v-container grid-list-xs>
     <div class="main-services d-flex justify-center align-center">
-      <div class="bg">
-        <v-img contain src="../services-bg.png"></v-img>
+      <div class="bg" :style="image">
+        <v-img contain src="services-bg.png"></v-img>
       </div>
       <div class="d-flex flex-column align-center justify-center">
         <h1 class="white--text font-italic font-weight-medium">Contacto</h1>
@@ -60,7 +60,9 @@ export default {
   name: 'IndexPage',
   components: {},
   data() {
-    return {}
+    return {
+      image: { backgroundImage: `url(${bikeImg})` },
+    }
   },
   computed: {
     ...mapState({
@@ -74,11 +76,12 @@ export default {
     ...mapActions({}),
   },
 }
+import bikeImg from '../static/services-bg.png'
 </script>
 
 <style scoped>
 .bg {
-  background: url('/services-bg.png');
+  /* background: url('~@/assets/services-bg.png'); */
   position: absolute;
   z-index: -1;
   /* top: 0px; */

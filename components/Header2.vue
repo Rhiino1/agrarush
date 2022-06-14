@@ -1,7 +1,7 @@
 <template>
   <v-toolbar flat prominent color="transparent">
     <v-toolbar-title>
-      <v-img contain src="/logo.png" height="125"></v-img>
+      <v-img contain src="logo.png" height="125"></v-img>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-xs-only d-flex justify-center align-center">
