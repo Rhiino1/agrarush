@@ -1,8 +1,8 @@
 export default {
   target: 'static',
-  // router: {
-  //   base: '/agrarush/'
-  // },
+  router: {
+    base: 'rhiino1.github.io/agrarush/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - AgraRush',
